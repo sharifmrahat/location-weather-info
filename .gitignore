@@ -66,3 +66,4 @@ typings/
 .env
 .env.test
 
+test.js
