@@ -1,0 +1,16 @@
+{
+  "name": "location-weather-info",
+  "version": "1.0.0",
+  "description": "Retrieve weather information based on user's location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Location",
+    "Weather",
+    "Info"
+  ],
+  "author": "Sharif",
+  "license": "ISC"
+}
