@@ -2,38 +2,35 @@
 # Location Weather Info
 
 Retrieve current weather information based on user's location.
-## Demo
-
-
-
-
 ## Features
-
-
-
+Get Current Weather Information based on user's
+- Co-ordinates (Latitude & Longitude)
+- City Name
 ## Installation
 
 Using npm:
 
 ```bash
 $ npm install location-weather-info
+
 ```
+
 
 ## Example
 
-    1. Import LocationWeatherInfo after installation:
+**Step-1:** Import LocationWeatherInfo after installation:
 
 ```js
 import LocationWeatherInfo from 'location-weather-info'
 ```
 
-    2. declare construction with your API KEY. Your can get your API_KEY from: https://home.openweathermap.org/api_keys (You must login to get your secret API_KEY)N.B: Save this into .env file.
+**Step-2:** Declare construction with your API KEY. Your can get your API_KEY from: [Open Weather](https://home.openweathermap.org/api_keys)
 
 ```js
 const weather = new LocationWeatherInfo(API_KEY);
 ```
 
-    3. Now you can get the current weather info based on Co-ordinates or City Name.
+**Step-3:** Now you can get the current weather info based on Co-ordinates (Latitude & Longitude) or City Name.
 
 ```js
 const weatherByCoords = weather.getWeatherByCoords(35, 139);
@@ -42,6 +39,18 @@ console.log(weatherByCoords);
 const weatherByCity = weather.getWeatherByCity("Tokyo");
 console.log(weatherByCity);
 
+```
+## Output
+If you pass the required arguments you can get the resposnse with an object like:
+
+```js
+{success: true, data: weatherData}
+```
+
+If any error is occured then the resposnse will be:
+
+```js
+{success: false, error: errorMessage}
 ```
 ## Browser Support
 
