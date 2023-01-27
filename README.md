@@ -43,7 +43,7 @@ console.log(weatherByCity);
 
 ```
 ## Output
-If you pass the required arguments you can get the response with an object like:
+If you pass the required arguments then you will get the response with an object like:
 
 ```js
 {success: true, data: weatherData}
