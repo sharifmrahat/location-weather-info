@@ -1,6 +1,6 @@
 {
   "name": "location-weather-info",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Retrieve weather information based on user's location.",
   "main": "index.js",
   "scripts": {
