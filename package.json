@@ -1,6 +1,6 @@
 {
   "name": "location-weather-info",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Retrieve weather information based on user's location.",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sharifmrahat/location-weather-info.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sharifmrahat/location-weather-info/issues"
   },
   "homepage": "https://github.com/sharifmrahat/location-weather-info#readme"
 }
