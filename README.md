@@ -24,7 +24,7 @@ $ npm install location-weather-info
 import LocationWeatherInfo from 'location-weather-info'
 ```
 
-**Step-2:** Declare construction with your API KEY. Your can get your API_KEY from: [Open Weather](https://home.openweathermap.org/api_keys)
+**Step-2:** Declare the construction and pass your API KEY. Your can get your API_KEY from: [Open Weather](https://home.openweathermap.org/api_keys). You must login to get your secret key. It is highly recommended to store your secret key into .env file.
 
 ```js
 const weather = new LocationWeatherInfo(API_KEY);
@@ -33,21 +33,23 @@ const weather = new LocationWeatherInfo(API_KEY);
 **Step-3:** Now you can get the current weather info based on Co-ordinates (Latitude & Longitude) or City Name.
 
 ```js
+//Get weather by Co-ordinates (latitude, longitude)
 const weatherByCoords = weather.getWeatherByCoords(35, 139);
 console.log(weatherByCoords);
 
+//Get weather by Name of City
 const weatherByCity = weather.getWeatherByCity("Tokyo");
 console.log(weatherByCity);
 
 ```
 ## Output
-If you pass the required arguments you can get the resposnse with an object like:
+If you pass the required arguments you can get the response with an object like:
 
 ```js
 {success: true, data: weatherData}
 ```
 
-If any error is occured then the resposnse will be:
+If any error is occurred then the response will be:
 
 ```js
 {success: false, error: errorMessage}
