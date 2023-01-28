@@ -9,9 +9,15 @@ class LocationWeatherInfo {
     try {
       const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${this.apiKey}`;
       const response = await axios.get(url);
-      return { success: true, data: response.data };
+      if(response.data){
+        return { success: true, data: response.data };
+      }
+      else{
+        return { success: false, error: "No data is found" };
+      }
+      
     } catch (error) {
-      return { success: false, data: error };
+      return { success: false, error: error };
     }
   }
 
@@ -19,7 +25,12 @@ class LocationWeatherInfo {
     try {
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${this.apiKey}`;
       const response = await axios.get(url);
-      return { success: true, data: response.data };
+      if(response.data){
+        return { success: true, data: response.data };
+      }
+      else{
+        return { success: false, error: "No data is found" };
+      }
     } catch (error) {
       return { success: false, data: error };
     }
