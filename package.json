@@ -1,4 +1,28 @@
 {
   "name": "location-weather-info",
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "description": "Retrieve current weather information based on user's location.",
+  "version": "1.2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharifmrahat/location-weather-info.git"
+  },
+  "keywords": [
+    "Location",
+    "Weather",
+    "OpenWeatherMap"
+  ],
+  "author": "Sharif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharifmrahat/location-weather-info/issues"
+  },
+  "homepage": "https://github.com/sharifmrahat/location-weather-info#readme",
+  "dependencies": {
+    "axios": "^1.2.5"
+  }
 }
