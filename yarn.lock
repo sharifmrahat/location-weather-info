@@ -33,21 +33,6 @@
   "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz"
   "version" "16.0.3"
 
-"file-match@^1.0.1":
-  "integrity" "sha512-g9p6bZV3HlSUM35QPvFWiP/PckDVe5jLPDhx6PfMuy06o+htesJTyDu7zRdXnOm3BY8pXmxb+QY5qIcsoWMGNg=="
-  "resolved" "https://registry.npmjs.org/file-match/-/file-match-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "utils-extend" "^1.0.6"
-
-"file-system@^2.2.2":
-  "integrity" "sha512-YgbXEVCu21CfmoeJ1rFLVLPGhW9o7iCzVFqk7ydy2TxF7rXH2YB68CFgDXLOvTD2pMLtg8paVqurzVjxGRdYmw=="
-  "resolved" "https://registry.npmjs.org/file-system/-/file-system-2.2.2.tgz"
-  "version" "2.2.2"
-  dependencies:
-    "file-match" "^1.0.1"
-    "utils-extend" "^1.0.4"
-
 "follow-redirects@^1.15.0":
   "integrity" "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA=="
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
@@ -78,8 +63,3 @@
   "integrity" "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg=="
   "resolved" "https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz"
   "version" "1.1.0"
-
-"utils-extend@^1.0.4", "utils-extend@^1.0.6":
-  "integrity" "sha512-+VzQieEAijyCFGqnGAWIy7Em1dFGdgf1w+orKwmTWHyaGL19aw9Oq5e5ZZaxgcS777AkPYEsbgWqpz5E6KniPg=="
-  "resolved" "https://registry.npmjs.org/utils-extend/-/utils-extend-1.0.8.tgz"
-  "version" "1.0.8"
