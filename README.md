@@ -37,16 +37,16 @@ import LocationWeatherInfo from 'location-weather-info'
 const weather = new LocationWeatherInfo(API_KEY);
 ```
 
-**Step-3:** Now you can get the current weather info based on Co-ordinates (Latitude & Longitude) or City Name.
+**Step-3:** Now you can get the current weather info based on Co-ordinates (Latitude & Longitude) or Location Name.
 
 ```js
 //Get weather by Co-ordinates (latitude, longitude)
 const weatherByCoords = weather.getWeatherByCoords(35, 139);
 console.log(weatherByCoords);
 
-//Get weather by City Name
-const weatherByCity = weather.getWeatherByCity("Tokyo");
-console.log(weatherByCity);
+//Get weather by Location Name
+const weatherByLocationName = weather.getWeatherByLocation("Tokyo");
+console.log(weatherByLocationName);
 
 ```
 N.B: Both function returns promise, it might be needed to handle from client side.

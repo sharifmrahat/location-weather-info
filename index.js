@@ -21,9 +21,9 @@ class LocationWeatherInfo {
     }
   }
 
-  async getWeatherByCity(city) {
+  async getWeatherByLocation(locationName) {
     try {
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${this.apiKey}`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${locationName}&appid=${this.apiKey}`;
       const response = await axios.get(url);
       if(response.data){
         return { success: true, data: response.data };
