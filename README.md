@@ -2,6 +2,11 @@
 # Location Weather Info
 
 Retrieve current weather information based on user's location.
+
+![NPM Version](https://img.shields.io/npm/v/location-weather-info?style=flat-square)
+![Install Size](https://img.shields.io/bundlephobia/minzip/location-weather-info?label=Install%20size&style=flat-square)
+![Total Downloads](https://img.shields.io/npm/dt/location-weather-info?color=%230f766e&label=Total%20Downloads&style=flat-square)
+
 ## Demo
 Home Page: [Location Weather Info](https://location-weather-info.vercel.app/)
 ## Features
