@@ -74,7 +74,7 @@ If any error is occurred then the response will be:
 Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 
 ## Caution
-This open source project is beginner friendly and made only for learning puporse, where we used Open Weather Map v2.5 with free-tier API end points. That's why your secret API key may revealed as payload. So in case of production you may purchase and handle the API end points manually instead of using this package. Also you can follow their guidline [here.](https://home.openweathermap.org/api_keys)
+This open source project is beginner friendly and made only for learning purpose, where we used Open Weather Map v2.5 with free-tier API end points. That's why your secret API key may revealed as payload. So in case of production you may purchase and handle the API end points manually instead of using this package. Also you can follow their guidelines [here.](https://home.openweathermap.org/guide)
 ## Author
 
 [@SharifRahat](https://www.github.com/sharifmrahat)
